@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.container {
+    background-image: url(Images/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.item {
+    height: 50px;
+    display: flex;
+    flex-direction: row; 
+
+}
+.item > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+.navbar {
+    background-color: rgb(53, 19, 110);
+    color: snow;
+    font-family: 'Trebuchet MS';
+    font-size: larger;
+    list-style: none;
+    margin:0;
+    padding: 0; 
+}
+
+.navbar input[type=text] {
+    padding: 0px; 
+    width: 250px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 17px;
+    border: 2px solid;
+    /* border-radius: 15%; */
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(30, 4, 74);
+  }
+  
+  .active {
+    background-color: rgb(53, 19, 110);
+  }
+
+  .all-articles {
+    border: 2px groove rgb(8, 106, 167);
+    border-radius: 5%;
+    padding: 5px;
+    width: 220px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: block;
+    box-shadow: 5px 5px rgb(1, 1, 31);
+    align-items: center;
+    text-align: center;
+    background-color: rgb(25, 42, 75);
+    
+  }
+
+  .all-articles-images {
+    box-sizing: border-box;
+    border-radius: 10%;
+    width: 200px;
+    height: 150px;
+    margin-top: 5px;
+    box-shadow: 3px 3px black;
+  }
