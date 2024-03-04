@@ -12,6 +12,7 @@
     background-attachment: fixed;
     height: 100vh;
     width: 100vw;
+    position: relative;
 }
 
 .item {
@@ -89,9 +90,11 @@ ul {
     border-radius: 5%;
     padding: 5px;
     width: 220px;
+    position: absolute;
     height: 400px;
     margin-top: 50px;
     margin-left: 30px;
+    bottom: 50px;
     display: block;
     box-shadow: 5px 5px rgb(1, 1, 31);
     align-items: center;
@@ -107,4 +110,53 @@ ul {
     height: 150px;
     margin-top: 5px;
     box-shadow: 3px 3px black;
+  }
+
+  .item4 >img {
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    border: 5px outset black;
+    box-shadow: 5px 5px rgb(2, 34, 71);
+    width: 450px;
+    height: 300px;
+  }
+
+  .item4 :hover {
+    width: 550px;
+    height: 400px;
+    cursor: pointer;
+  }
+
+  .item5 >img {
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    border: 5px groove black;
+    box-shadow: 5px 5px rgb(2, 34, 71);
+    width: 450px;
+    height: 300px;
+  }
+
+
+  .item5 :hover {
+    width: 550px;
+    height: 400px;
+    cursor: pointer;
+  }
+
+  .item6 >img {
+    position: absolute;
+    left: 20px;
+    top: 500px;
+    border: 5px groove black;
+    box-shadow: 5px 5px rgb(2, 34, 71);
+    width: 450px;
+    height: 300px;
+  }
+
+  .item6 :hover {
+    width: 550px;
+    height: 400px;
+    cursor: pointer;
   }
